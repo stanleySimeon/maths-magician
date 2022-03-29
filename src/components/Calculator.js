@@ -9,9 +9,9 @@ class Calculator extends PureComponent {
         </div>
         <div className="row">
           <div className="col-xs-12 tab">
-            <div className="element">AC</div>
-            <div className="element">+/-</div>
-            <div className="element">%</div>
+            <button type="button" name="AC" className="element">AC</button>
+            <button type="button" name="+/-" className="element">+/-</button>
+            <button type="button" name="%" className="element">%</button>
             <div className="element">7</div>
             <div className="element">8</div>
             <div className="element">9</div>
