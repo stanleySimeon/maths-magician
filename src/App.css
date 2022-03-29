@@ -39,7 +39,8 @@
   align-items: center;
 }
 
-.element, .operator {
+.element,
+.operator {
   height: 60px;
   margin: 0;
   display: flex;
