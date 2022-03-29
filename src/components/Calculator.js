@@ -22,14 +22,14 @@ class Calculator extends PureComponent {
             <div className="element">2</div>
             <div className="element">3</div>
             <div className="element">0</div>
-            <div className="element">.</div>
+            <button type="button" name="." className="element">.</button>
           </div>
           <div className="operatorContainer">
-            <p className="operator">÷</p>
-            <p className="operator">x</p>
-            <p className="operator">-</p>
-            <p className="operator">+</p>
-            <p className="operator">=</p>
+            <button type="button" name="÷" className="operator">÷</button>
+            <button type="button" name="x" className="operator">x</button>
+            <button type="button" name="-" className="operator">-</button>
+            <button type="button" name="+" className="operator">+</button>
+            <button type="button" name="=" className="operator">=</button>
           </div>
         </div>
       </div>
