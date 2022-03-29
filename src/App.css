@@ -1,7 +1,84 @@
-.App {
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-size: 3rem;
+.container {
+  position: relative;
+  max-width: 500px;
+  height: auto;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.header {
+  background-color: #80808d;
+  height: 60px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+}
+
+.result {
+    font-size: 1.5rem;
+}
+
+.row {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(236, 236, 236);
+}
+
+.tab {
+  width: 85%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 3fr 3fr;
+  -ms-grid-rows: auto;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-rows: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  background-color: rgb(236, 236, 236);
+  border-bottom: 1px solid rgb(180, 180, 180);
+  border-left: 1px solid rgb(180, 180, 180);
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.element:nth-child(13) {
+  grid-column: 1 / span 2;
+}
+
+.operatorContainer {
+  width: 15%;
+  height: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.operator {
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+  background-color: rgb(253, 135, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
   font-weight: bold;
-  color: rgb(18, 110, 214);
+  cursor: pointer;
+  border-bottom: 1px solid rgb(180, 180, 180);
 }
