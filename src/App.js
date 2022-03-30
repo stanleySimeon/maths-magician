@@ -5,7 +5,9 @@ import './App.css';
 class App extends PureComponent {
   render() {
     return (
-      <Calculator />
+      <div className="App">
+        <Calculator />
+      </div>
     );
   }
 }

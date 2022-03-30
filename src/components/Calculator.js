@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
+// import calculate from '../logic/calculate';
 
-class Calculator extends PureComponent {
+export default class Calculator extends PureComponent {
   render() {
     return (
       <div className="container">
@@ -36,4 +37,3 @@ class Calculator extends PureComponent {
     );
   }
 }
-export default Calculator;
