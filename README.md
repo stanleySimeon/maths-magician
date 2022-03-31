@@ -11,34 +11,27 @@
 - Frameworks
 - Technologies used
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
 ## Getting Started
 
 - To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000)
-
-### Setup
+`type `cd` `dirname`, after type `git clone [https://github.com/stanleySimeon/maths-magician.git]`
 
 ### Install
-
-### Usage
-
-### Run tests
-### `npm test`
+`npm install`
 
 ### Deployment
 
+- To deploy the project
+### type `npm start`
+- Runs the app in the development mode.\
+Automatically your browser should open this link: [http://localhost:3000](http://localhost:3000)
 
+## After add a change run: 
+## `npm run build`
+## Run test
+
+###`npm test`
 
 ## Authors
 
@@ -62,7 +55,3 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
