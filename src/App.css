@@ -6,18 +6,18 @@
   padding: 0 20px;
 }
 
-.header {
+.resultContainer {
   background-color: #80808d;
   height: 60px;
   display: flex;
   justify-content: end;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 10px 0 10px;
   color: white;
 }
 
 .result {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .row {

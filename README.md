@@ -15,7 +15,7 @@
 
 - To get a local copy up and running follow these simple example steps.
 
-`type `cd` `dirname`, after type `git clone [https://github.com/stanleySimeon/maths-magician.git]`
+type `cd` `dirname`, after type git clone [https://github.com/stanleySimeon/maths-magician.git]
 
 ### Install
 `npm install`
