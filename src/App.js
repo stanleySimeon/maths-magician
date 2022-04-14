@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import { React } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import Calculator from './components/Calculator';
@@ -75,7 +74,10 @@ function Quote() {
         </nav>
       </div>
       <div className="quotes">
-        <p>Mathematics is not about numbers, equations, computations or algorithms: it is about understanding. - William Paul Thurston</p>
+        <p>
+          Mathematics is not about numbers, equations, computations or algorithms:
+          it is about understanding. - William Paul Thurston
+        </p>
       </div>
       <Footer />
     </main>
