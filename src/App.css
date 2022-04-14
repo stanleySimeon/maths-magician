@@ -1,8 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+
+.calc-container {
+  display: flex;
+  margin: 100px auto;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.calc-container h2 {
+  font-family: 'My Soul', cursive;
+  font-size: 4rem;
+  color: rgb(253, 135, 0);
+  margin: 0px;
+}
+
 .container {
   position: relative;
-  max-width: 500px;
+  width: 600px;
   height: auto;
-  margin: 80px auto;
   padding: 0 20px;
 }
 
@@ -87,4 +102,35 @@
 
 .operator:focus {
   background-color: rgba(253, 135, 0, 0.527);
+}
+
+.description {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.description h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4e4e4e;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #4e4e4e;
+}
+
+.quotes {
+  position: absolute;
+  max-width: 58rem;
+  top: 40%;
+  left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotes p {
+  font-size: 1.8rem;
+  color: #00052b;
 }
