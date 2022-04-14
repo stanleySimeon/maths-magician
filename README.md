@@ -13,8 +13,9 @@
 
 # Getting Started
 
-[heroku demo link](https://maths-mag.herokuapp.com/)
-[netlify demo link](https://kalkilanm.netlify.app/)
+# [heroku demo](https://maths-mag.herokuapp.com/)
+#
+# [netlify demo](https://kalkilanm.netlify.app/)
 
 - To get a local copy up and running follow these simple example steps.
 
