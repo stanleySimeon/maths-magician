@@ -1,82 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { buttons, operators } from './Buttons';
 import calculate from '../logic/calculate';
 import Footer from './footer';
-import './header.css';
-
-const buttons = [
-  {
-    name: 'AC',
-    value: 'AC',
-  },
-  {
-    name: '+/-',
-    value: '+/-',
-  },
-  {
-    name: '%',
-    value: '%',
-  },
-  {
-    name: '7',
-    value: '7',
-  },
-  {
-    name: '8',
-    value: '8',
-  },
-  {
-    name: '9',
-    value: '9',
-  },
-  {
-    name: '4',
-    value: '4',
-  },
-  {
-    name: '5',
-    value: '5',
-  },
-  {
-    name: '6',
-    value: '6',
-  },
-  {
-    name: '1',
-    value: '1',
-  },
-  {
-    name: '2',
-    value: '2',
-  },
-  {
-    name: '3',
-    value: '3',
-  },
-];
-
-const operators = [
-  {
-    name: '÷',
-    value: '÷',
-  },
-  {
-    name: 'x',
-    value: 'x',
-  },
-  {
-    name: '-',
-    value: '-',
-  },
-  {
-    name: '+',
-    value: '+',
-  },
-  {
-    name: '=',
-    value: '=',
-  },
-];
+// import './header.css';
 
 const Calculator = () => {
   const [state, setState] = useState({ total: null, next: null });
@@ -97,14 +24,14 @@ const Calculator = () => {
   };
   return (
     <>
-      <div className="header">
+      <header className="container-fluid bg-green-400">
         <h1>Math Magicians</h1>
         <nav className="navItems">
           <Link className="item" to="/">Home</Link>
           <Link className="item" to="/Calculator">Calculator</Link>
           <Link className="item" to="/Quote">Quote</Link>
         </nav>
-      </div>
+      </header>
       <div className="calc-container">
         <h2>Let&apos;s do some math!</h2>
         <div className="container">

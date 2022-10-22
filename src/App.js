@@ -3,6 +3,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Footer from './components/footer';
 import './App.css';
+import './index.css';
 import './components/header.css';
 
 export default function App() {

@@ -12,9 +12,6 @@
 - Technologies used
 
 # Getting Started
-
-# [heroku demo](https://maths-mag.herokuapp.com/)
-#
 # [netlify demo](https://kalkilanm.netlify.app/)
 
 - To get a local copy up and running follow these simple example steps.
@@ -32,7 +29,7 @@ type `cd` `dirname`, after type git clone [https://github.com/stanleySimeon/math
 - Runs the app in the development mode.\
 Automatically your browser should open this link: [http://localhost:3000](http://localhost:3000)
 
-# After add a change run: 
+# After add a change run:
 # `npm run build`
 # Run test
 
