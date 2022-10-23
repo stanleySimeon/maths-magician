@@ -42,7 +42,7 @@ export default function Quote() {
           </p>
         </span>
       </div>
-      <button type="button" className="card hover:bg-math-header hover:text-white shadow-md rounded-md py-2 w-52 text-xl text-semibold absolute top-3/4 translate-x-1/2" onClick={handleClick}>New Quote</button>
+      <button type="button" className="card hover:bg-math-header hover:text-white shadow-md rounded-md py-2 w-52 text-xl text-semibold absolute top-3/4 left-1/2 -translate-x-1/2" onClick={handleClick}>New Quote</button>
     </div>
   );
 }
