@@ -48,7 +48,7 @@ export default function Navigation() {
   return (
     <nav className="bg-math-header fixed top-0 left-0 w-full h-16 z-50">
       <div className="container-fluid flex justify-between items-center px-4 md:px-16 lg:px-32">
-        <Link to="/Home" className="flex items-center">
+        <Link to="/" className="flex items-center">
           <img src={mathLogo} alt="math logo" className="w-16 h-16 md:w-20" />
         </Link>
         <div className="flex justify-end items-center">
