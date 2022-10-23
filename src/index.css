@@ -2,15 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #e8e8e8;
+}
+
 .card {
-    background: #e0e0e0;
-    -webkit-box-shadow: 15px 15px 30px #bebebe,
-        -15px -15px 30px #ffffff;
-    box-shadow: 15px 15px 30px #bebebe,
-        -15px -15px 30px #ffffff;
+  background: #e0e0e0;
+  -webkit-box-shadow: 15px 15px 30px #bebebe,
+    -15px -15px 30px #ffffff;
+  box-shadow: 15px 15px 30px #bebebe,
+    -15px -15px 30px #ffffff;
 }
 
 .element:nth-child(13) {
-    -ms-grid-column: 1 / span 2;
-    grid-column: 1 / span 2;
+  -ms-grid-column: 1 / span 2;
+  grid-column: 1 / span 2;
 }

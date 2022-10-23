@@ -21,9 +21,24 @@ const Calculator = () => {
   };
   return (
     <>
-      <div className="px-2 md:px-16 lg:px-32 pt-28 lg:pt-36 flex flex-col justify-center items-center">
-        <h2 className="hidden">Let&apos;s do some math!</h2>
-        <div className="card bg-#e0e0e0 w-11/12 rounded-2xl p-4 md:w-8/12">
+      <div className="px-2 md:px-16 lg:px-32 pt-28 lg:pt-36 flex flex-col md:flex-row md:gap-8 justify-center items-center">
+        <h2 className="wow bounceIn hidden md:block text-7xl lg:text-8xl font-bold text-gray-900">
+          <span>
+            Let&apos;s do
+          </span>
+          {' '}
+          <span>
+            some
+          </span>
+          {' '}
+          <br />
+          {' '}
+          math
+          <span className="text-green-500">
+            !
+          </span>
+        </h2>
+        <div className="card bg-math-smartCard w-11/12 rounded-2xl p-4 md:w-8/12">
           <div className="bg-math-background shadow-md w-full h-12 md:h-20 mb-4 rounded-xl flex justify-end items-center text-xl md:text-3xl text-math-header text-opacity-95 px-4 font-semibold">
             {result}
           </div>

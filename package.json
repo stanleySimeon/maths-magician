@@ -20,6 +20,8 @@
     "react-scripts": "^5.0.1",
     "tailwindcss": "^2.2.19",
     "web-vitals": "^2.1.4",
+    "wow": "^0.0.6",
+    "wowjs": "^1.1.3",
     "yarn": "^1.22.18"
   },
   "scripts": {

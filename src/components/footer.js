@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div className="flex justify-center items-center w-full bg-math-smartCard h-14 absolute bottom-0">
+    <div className="flex justify-center items-center w-full bg-math-smartCard h-10 fixed bottom-0 z-0">
       <p className="text-math-header">
         Stanley SIMEON ©
         {' '}

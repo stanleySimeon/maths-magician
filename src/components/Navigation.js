@@ -17,7 +17,7 @@ export default function Navigation() {
   const hide = () => setIsOpen(false);
 
   return (
-    <header className="header fixed w-full top-0 flex justify-between p-2 md:py-4 md:px-16 lg:px-32  text-white bg-math-header select-none">
+    <header className="header fixed w-full top-0 flex justify-between p-2 md:py-4 md:px-16 lg:px-32  text-white bg-math-header select-none z-50">
       <Link to="Home" className="logo">
         <img src={mathLogo} alt="math logo" className="w-16 md:w-20 lg:w-24" />
       </Link>
