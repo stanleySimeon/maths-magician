@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+    background: #e0e0e0;
+    -webkit-box-shadow: 15px 15px 30px #bebebe,
+        -15px -15px 30px #ffffff;
+    box-shadow: 15px 15px 30px #bebebe,
+        -15px -15px 30px #ffffff;
+}
+
+.element:nth-child(13) {
+    -ms-grid-column: 1 / span 2;
+    grid-column: 1 / span 2;
+}

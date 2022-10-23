@@ -26,19 +26,12 @@ module.exports = {
         proximaLight: ['Proxima Nova Light', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        myPortfolio: {
-          DEFAULT: '#000211',
-          logo: '#0A4EFB',
-          blue: '#001845',
-          blueLight: '#00296B',
-          blueLighter: '#003C92',
-          blueLightest: '#004FB9',
-          white: '#FFFFFF',
-          grayLight: '#DCDCDC',
-          secondaryButton: '#F5F5F5',
-          circle: '#0A4EFB',
-          bgCard: 'rgba(10, 78, 251, 0.05)',
-          secondaryText: '#1C88C7',
+        math: {
+          smartCard: '#E0E0E0',
+          background: '#E8E8E8',
+          primary: '#FCA311',
+          secondary: '#3A506B',
+          header: '#010123',
         },
       },
       container: {

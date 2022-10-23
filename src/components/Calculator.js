@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { buttons, operators } from './Buttons';
 import calculate from '../logic/calculate';
-import Footer from './footer';
-// import './header.css';
 
 const Calculator = () => {
   const [state, setState] = useState({ total: null, next: null });
@@ -24,33 +21,24 @@ const Calculator = () => {
   };
   return (
     <>
-      <header className="container-fluid bg-green-400">
-        <h1>Math Magicians</h1>
-        <nav className="navItems">
-          <Link className="item" to="/">Home</Link>
-          <Link className="item" to="/Calculator">Calculator</Link>
-          <Link className="item" to="/Quote">Quote</Link>
-        </nav>
-      </header>
-      <div className="calc-container">
-        <h2>Let&apos;s do some math!</h2>
-        <div className="container">
-          <div className="resultContainer">
-            <div className="result">{result}</div>
+      <div className="px-2 md:px-16 lg:px-32 pt-28 lg:pt-36 flex flex-col justify-center items-center">
+        <h2 className="hidden">Let&apos;s do some math!</h2>
+        <div className="card bg-#e0e0e0 w-11/12 rounded-2xl p-4 md:w-8/12">
+          <div className="bg-math-background shadow-md w-full h-12 md:h-20 mb-4 rounded-xl flex justify-end items-center text-xl md:text-3xl text-math-header text-opacity-95 px-4 font-semibold">
+            {result}
           </div>
-          <div className="row">
-            <div className="col-xs-12 tab">
-              {buttons.map((button) => (<button key={button.name} onClick={handleClick} type="button" className="element">{button.value}</button>))}
-              <button type="button" name="0" className="element" onClick={handleClick}>0</button>
-              <button type="button" name="." className="element" onClick={handleClick}>.</button>
+          <div className="flex font-semibold select-none">
+            <div className="grid grid-cols-3 w-full gap-4 md:text-2xl">
+              {buttons.map((button) => (<button key={button.name} onClick={handleClick} type="button" className="shadow-md border rounded-md p-2 md:py-4 hover:bg-math-background">{button.value}</button>))}
+              <button type="button" name="0" className="element shadow-md border rounded-md p-2 md:py-4 hover:bg-math-background" onClick={handleClick}>0</button>
+              <button type="button" name="." className="element w-full shadow-md border rounded-md p-2 md:py-4 hover:bg-math-background" onClick={handleClick}>.</button>
             </div>
-            <div className="operatorContainer">
-              {operators.map((button) => (<button key={button.name} onClick={handleClick} type="button" className="operator">{button.value}</button>))}
+            <div className="flex flex-col w-2/12 pl-4 gap-4">
+              {operators.map((button) => (<button key={button.name} onClick={handleClick} type="button" className="shadow-md border rounded-md p-2 md:py-4 focus:bg-math-primary hover:bg-math-background md:text-2xl">{button.value}</button>))}
             </div>
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };
