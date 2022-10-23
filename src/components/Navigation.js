@@ -9,7 +9,7 @@ import mathLogo from '../assets/math.svg';
 
 export default function Navigation() {
   const links = [
-    { id: 1, name: 'Home', path: '/home' },
+    { id: 1, name: 'Home', path: '/' },
     { id: 2, name: 'Calculator', path: '/calculator' },
     { id: 3, name: 'Quote', path: '/quote' },
   ];
