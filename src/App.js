@@ -6,7 +6,7 @@ import Navigation from './components/Navigation';
 import Home from './components/Home';
 import Calculator from './components/Calculator';
 import Quote from './components/Quote';
-import Footer from './components/Footer';
+import Footer from './components/FooterPage';
 import './index.css';
 
 export default class App extends Component {
